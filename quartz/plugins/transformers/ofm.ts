@@ -11,9 +11,6 @@ import { JSResource, CSSResource } from "../../util/resources"
 import calloutScript from "../../components/scripts/callout.inline.ts"
 // @ts-ignore
 import checkboxScript from "../../components/scripts/checkbox.inline.ts"
-// @ts-ignore
-import mermaidExtensionScript from "../../components/scripts/mermaid.inline.ts"
-import mermaidStyle from "../../components/styles/mermaid.inline.scss"
 import { FilePath, pathToRoot, slugTag, slugifyFilePath } from "../../util/path"
 import { toHast } from "mdast-util-to-hast"
 import { toHtml } from "hast-util-to-html"
@@ -810,19 +807,6 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
           script: calloutScript,
           loadTime: "afterDOMReady",
           contentType: "inline",
-        })
-      }
-
-      if (opts.mermaid) {
-        js.push({
-          script: mermaidExtensionScript,
-          loadTime: "afterDOMReady",
-          moduleType: "module",
-          contentType: "inline",
-        })
-        css.push({
-          content: mermaidStyle,
-          inline: true,
         })
       }
 
