@@ -1,7 +1,10 @@
 import { htmlToJsx } from "../../util/jsx"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
+// @ts-ignore
+import mermaidScript from "../scripts/mermaid.inline"
+import mermaidStyle from "../styles/mermaid.scss"
 
-const Content: QuartzComponent = ({ ctx, fileData, tree }: QuartzComponentProps) => {
+const Content: QuartzComponent = ({ fileData, tree }: QuartzComponentProps) => {
   const content = htmlToJsx(fileData.filePath!, tree)
   const classes: string[] = fileData.frontmatter?.cssclasses ?? []
   const classString = ["popover-hint", ...classes].join(" ")
@@ -41,5 +44,8 @@ const Content: QuartzComponent = ({ ctx, fileData, tree }: QuartzComponentProps)
     </>
   )
 }
+
+Content.afterDOMLoaded = mermaidScript
+Content.css = mermaidStyle
 
 export default (() => Content) satisfies QuartzComponentConstructor

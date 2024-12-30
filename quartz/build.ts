@@ -22,6 +22,10 @@ import { getStaticResourcesFromPlugins } from "./plugins"
 
 type Dependencies = Record<string, DepGraph<FilePath> | null>
 
+type ContentPresence = {
+  hasMermaid: boolean
+}
+
 type BuildData = {
   ctx: BuildCtx
   ignored: GlobbyFilterFunction
@@ -34,6 +38,7 @@ type BuildData = {
   toRemove: Set<FilePath>
   lastBuildMs: number
   dependencies: Dependencies
+  contentPresenceChecks: ContentPresence
 }
 
 type FileEvent = "add" | "change" | "delete"
@@ -129,6 +134,7 @@ async function startServing(
     toRemove: new Set<FilePath>(),
     trackedAssets: new Set<FilePath>(),
     lastBuildMs: 0,
+    contentPresenceChecks: { hasMermaid: false },
   }
 
   const watcher = chokidar.watch(".", {
