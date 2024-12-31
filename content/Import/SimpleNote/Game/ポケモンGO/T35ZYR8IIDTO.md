@@ -1,0 +1,6 @@
+T35ZYR8IIDTO
+T35ZYR8IIDTO
+
+
+Tags:
+  ポケモンGO

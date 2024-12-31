@@ -1,0 +1,9 @@
+SIM検討20190704
+iPhone：
+　主回線：DoCoMo
+　副回線：IIJmio eSIM
+Galaxy Feel：
+　主回線：Biglobe mobile → Excite mobile
+
+Tags:
+  検討・問合せメモ, 環境

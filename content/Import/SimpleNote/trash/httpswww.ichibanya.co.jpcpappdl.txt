@@ -1,0 +1,1 @@
+https://www.ichibanya.co.jp/cp/appdl/

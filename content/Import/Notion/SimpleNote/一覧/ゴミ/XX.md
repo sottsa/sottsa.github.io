@@ -1,0 +1,1 @@
+XX https://appllio.com/how-to-create-line-account-with-pc

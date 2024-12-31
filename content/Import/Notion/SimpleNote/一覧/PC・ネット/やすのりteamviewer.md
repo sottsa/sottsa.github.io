@@ -1,0 +1,1 @@
+やすのりteamviewer fktkc7

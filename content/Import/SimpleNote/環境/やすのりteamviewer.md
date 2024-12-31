@@ -1,0 +1,2 @@
+やすのりteamviewer
+fktkc7

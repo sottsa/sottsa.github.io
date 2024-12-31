@@ -1,0 +1,11 @@
+- [x] 決済方法見直し
+- [x] 確定申告
+- [x] 農業共済申し込み
+- [x] JA幸子
+- [x] 床下確認
+- [x] アルコール消毒ボトル購入
+- [x] 散髪
+- [x] 切符
+- [x] [FW: 【写真必要】セキュリティカードの更新準備について（依頼） - sottsa@gmail.com - Gmail (google.com)](https://mail.google.com/mail/u/0/#all/FMfcgzGxRxMdNBncDNXrZrqmNXsqNWQX)
+- [x] 主治医意見書(おむつ)
+- [x] おむつ使用証明書との違いは(金額、有効期間)

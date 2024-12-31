@@ -1,0 +1,3 @@
+公民館Wi-Fi	
+SSID	：pr500k-e4fb51-1
+KEY	：：0c060818bf955

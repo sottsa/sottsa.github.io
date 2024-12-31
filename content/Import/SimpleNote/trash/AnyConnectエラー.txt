@@ -1,0 +1,2 @@
+AnyConnectエラー
+ログインが拒否されました：Your terminal does not conform to the security policy.
