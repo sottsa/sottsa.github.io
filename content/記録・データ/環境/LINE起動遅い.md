@@ -1,0 +1,1 @@
+[LINEの起動が遅い・読み込みが遅い原因と重いLINEを軽くする5つの方法とは](https://drfone.wondershare.jp/ios/5ways-to-solve-line-starts-slowly.html)
